@@ -1,4 +1,4 @@
-package org.example.model.data;
+package org.example.model.enums;
 
 public enum LanguageType {
     ENGLISH("english"),

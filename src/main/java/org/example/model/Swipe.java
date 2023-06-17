@@ -5,8 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.enums.LanguageLevel;
-import org.example.model.enums.LanguageType;
+import org.example.model.enums.Direction;
 
 import java.util.UUID;
 
@@ -16,18 +15,19 @@ import java.util.UUID;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Language {
+public class Swipe {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     @Column
-    @Enumerated(EnumType.STRING)
-    private LanguageType language;
+    private UUID swiper;
+
+    @Column
+    private UUID swipedOn;
 
     @Column
     @Enumerated(EnumType.STRING)
-    private LanguageLevel languageLevel;
+    private Direction direction;
 
 
 }

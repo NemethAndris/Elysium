@@ -1,4 +1,4 @@
-package org.example.model.data;
+package org.example.model.enums;
 
 public enum LanguageLevel {
     BEGINNER("beginner"),

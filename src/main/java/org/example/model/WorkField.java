@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.data.WorkFieldType;
+import org.example.model.enums.WorkFieldType;
 
 import java.util.UUID;
 

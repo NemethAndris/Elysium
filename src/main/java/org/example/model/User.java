@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.data.WorkFieldType;
 import org.hibernate.annotations.CreationTimestamp;
 
 import java.sql.Timestamp;
@@ -36,6 +35,9 @@ public class User {
     @JoinColumn
     @OneToMany
     private Collection<Language> languages;
+    @JoinColumn
+    @ManyToMany
+    private Collection<Swipe> swipes;
     @Column
     private String userEmail;
     @Column
