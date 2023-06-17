@@ -9,3 +9,5 @@
 # Exclude application properties or yaml file
 /src/main/resources/application.properties
 /src/main/resources/application.yml
+# Ignore node_modules directory
+/node_modules/
