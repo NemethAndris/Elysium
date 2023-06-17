@@ -25,6 +25,8 @@ public class User {
     @Column(unique = true)
     private String userName;
     @Column
+    private String profileName;
+    @Column
     @JsonIgnore
     private String password;
     @Column
