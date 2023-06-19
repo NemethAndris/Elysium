@@ -1,11 +1,10 @@
-package org.example.model.job;
+package org.example.model.cv;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.company.Employer;
 import org.example.model.jobhunter.JobHunter;
 
 import java.util.Collection;
@@ -16,22 +15,22 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Job {
-
+public class Cv {
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
+    @ManyToOne
+    @JoinColumn(name = "jobHunterId")
+    private JobHunter jobHunter;
+
     @ManyToMany
-    private Collection<JobHunter> swipedByJobHunters;
+    private Collection<SpeakLanguage> speakLanguage;
+
+    @ManyToMany
+    private Collection<Qualification> qualifications;
 
     @Column
-    private String jobDescription;
-
-    @ManyToOne
-    @JoinColumn(name = "employerId" )
-    private Employer company;
-
+    private String bio;
 
 
 

@@ -6,6 +6,7 @@ import org.example.model.User;
 import org.example.model.job.Job;
 import org.example.model.jobhunter.JobHunter;
 
+
 import java.util.Collection;
 import java.util.UUID;
 
@@ -27,8 +28,8 @@ public class Employer extends User {
     @Column
     private String companyDescription;
 
-    @ManyToMany(mappedBy = "matchedCompanies")
-    private Collection<JobHunter> matchedJobHunters;
+    @ManyToMany
+    private Collection<JobHunter> blockedEmployers;
 
 
 

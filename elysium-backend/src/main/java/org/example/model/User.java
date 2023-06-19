@@ -9,13 +9,9 @@ import java.sql.Timestamp;
 import java.util.UUID;
 
 @Data
-@Entity
-@Builder
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "users")
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-public abstract class User {
+public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID userId;
@@ -36,23 +32,6 @@ public abstract class User {
     @Column
     @CreationTimestamp
     private Timestamp dateOfRegistration;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

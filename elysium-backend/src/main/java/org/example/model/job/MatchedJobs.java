@@ -5,10 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.company.Employer;
-import org.example.model.jobhunter.JobHunter;
+import org.example.model.enums.Status;
 
-import java.util.Collection;
 import java.util.UUID;
 
 @Data
@@ -16,23 +14,19 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class Job {
-
+public class MatchedJobs {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @ManyToMany
-    private Collection<JobHunter> swipedByJobHunters;
+    @Column
+    private UUID employerId;
 
     @Column
-    private String jobDescription;
+    private  UUID jobId;
 
-    @ManyToOne
-    @JoinColumn(name = "employerId" )
-    private Employer company;
-
-
+    @Column
+    private Status matchStatus;
 
 
 }

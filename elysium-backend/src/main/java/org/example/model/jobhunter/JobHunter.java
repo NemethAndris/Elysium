@@ -4,7 +4,8 @@ import jakarta.persistence.*;
 import lombok.*;
 import org.example.model.User;
 import org.example.model.company.Employer;
-import org.example.model.job.SwipedJob;
+import org.example.model.cv.Cv;
+import org.example.model.job.Job;
 
 import java.util.Collection;
 import java.util.UUID;
@@ -27,29 +28,12 @@ public class JobHunter extends User {
     @Column
     private String profilePicture;
 
-    @Column
-    private String jobHunterBio;
-
-    @JoinColumn
-    @ManyToOne
-    private WorkField workField;
-
-    @JoinColumn
-    @OneToMany
-    private Collection<Language> languages;
-
-    @Column
-    private int salaryRequirement;
-
-    @JoinColumn
     @OneToMany(mappedBy = "jobHunter")
-    private Collection<SwipedJob> swipedJobs;
+    private Collection<Cv> cvs;
 
-    @JoinColumn
     @ManyToMany
-    private Collection<Employer> matchedEmployers;
+    private Collection<Job> swipedJobs;
 
-    @JoinColumn
     @ManyToMany
     private Collection<Employer> blockedEmployers;
 
