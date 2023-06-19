@@ -1,6 +1,6 @@
 package org.example.repository;
 
-import org.example.model.WorkField;
+import org.example.model.jobhunter.WorkField;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

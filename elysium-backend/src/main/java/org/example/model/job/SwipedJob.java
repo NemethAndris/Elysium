@@ -1,11 +1,12 @@
-package org.example.model;
+package org.example.model.job;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.enums.Direction;
+import org.example.model.User;
+
 
 import java.util.UUID;
 
@@ -14,20 +15,23 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-
-public class Swipe {
+public class SwipedJob {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     @Column
-    private UUID swiper;
+    @ManyToOne
+    private User jobHunter;
 
     @Column
-    private UUID swipedOn;
+    @ManyToOne
+    private Job job;
 
     @Column
-    @Enumerated(EnumType.STRING)
-    private Direction direction;
+    private boolean swiped;
+
+
 
 
 }

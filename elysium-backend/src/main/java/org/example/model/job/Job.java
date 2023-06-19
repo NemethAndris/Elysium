@@ -1,13 +1,13 @@
-package org.example.model;
+package org.example.model.job;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.enums.LanguageLevel;
-import org.example.model.enums.LanguageType;
+import org.example.model.company.Employer;
 
+import java.util.Collection;
 import java.util.UUID;
 
 @Data
@@ -15,19 +15,23 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+public class Job {
 
-public class Language {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
-    @Column
-    @Enumerated(EnumType.STRING)
-    private LanguageType language;
+    @OneToMany(mappedBy = "job")
+    private Collection<SwipedJob> swipedByJobHunters;
 
     @Column
-    @Enumerated(EnumType.STRING)
-    private LanguageLevel languageLevel;
+    private String jobDescription;
+
+    @ManyToOne
+    @JoinColumn
+    private Employer company;
+
+
 
 
 }
