@@ -18,9 +18,6 @@ import java.util.UUID;
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 public class Employer extends User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
-    private UUID id;
 
     @OneToMany(mappedBy = "company")
     private Collection<Job> jobs;
