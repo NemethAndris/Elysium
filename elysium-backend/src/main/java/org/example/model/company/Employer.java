@@ -26,7 +26,10 @@ public class Employer extends User {
     private String companyDescription;
 
     @ManyToMany
-    private Collection<JobHunter> blockedEmployers;
+    private Collection<JobHunter> blockedJobHunters;
+
+    @Column
+    private String companyAddress;
 
 
 

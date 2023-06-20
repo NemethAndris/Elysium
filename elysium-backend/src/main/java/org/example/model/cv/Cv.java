@@ -17,6 +17,7 @@ import java.util.UUID;
 @AllArgsConstructor
 public class Cv {
     @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     @ManyToOne
@@ -29,8 +30,16 @@ public class Cv {
     @ManyToMany
     private Collection<Qualification> qualifications;
 
+    @OneToMany(mappedBy = "cv")
+    private Collection<JobExperience> jobExperiences;
+
     @Column
     private String bio;
+
+    @Column
+    private int wageRequest;
+
+
 
 
 
