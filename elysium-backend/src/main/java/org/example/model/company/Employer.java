@@ -8,7 +8,7 @@ import org.example.model.jobhunter.JobHunter;
 
 
 import java.util.Collection;
-import java.util.UUID;
+
 
 
 @Data

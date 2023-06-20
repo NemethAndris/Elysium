@@ -8,7 +8,7 @@ import org.example.model.cv.Cv;
 import org.example.model.job.Job;
 
 import java.util.Collection;
-import java.util.UUID;
+
 
 
 @Data
