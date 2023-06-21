@@ -5,8 +5,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.example.model.company.Employer;
-import org.example.model.jobhunter.JobHunter;
+import org.example.model.users.Employer;
+import org.example.model.users.JobHunter;
 
 import java.util.Collection;
 import java.util.UUID;

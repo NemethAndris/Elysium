@@ -1,4 +1,4 @@
-package org.example.model;
+package org.example.model.users;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -11,14 +11,12 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
-@Table(name = "users")
+@MappedSuperclass
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID userId;
-    @Column
+    @Column(unique = true)
     private String userName;
     @Column
     private String userEmail;

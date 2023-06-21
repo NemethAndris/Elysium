@@ -1,9 +1,9 @@
-package org.example.model.jobhunter;
+package org.example.model.users;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.example.model.User;
-import org.example.model.company.Employer;
+import org.example.model.users.User;
+import org.example.model.users.Employer;
 import org.example.model.cv.Cv;
 import org.example.model.job.Job;
 

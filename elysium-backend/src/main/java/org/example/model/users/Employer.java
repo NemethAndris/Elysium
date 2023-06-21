@@ -1,10 +1,8 @@
-package org.example.model.company;
+package org.example.model.users;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.example.model.User;
 import org.example.model.job.Job;
-import org.example.model.jobhunter.JobHunter;
 
 
 import java.util.Collection;
