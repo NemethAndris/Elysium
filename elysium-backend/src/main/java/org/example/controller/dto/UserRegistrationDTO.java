@@ -1,7 +1,10 @@
 package org.example.controller.dto;
 
 public record UserRegistrationDTO(
-        String username,
-        String password,
-        String userEmail
+        String userName,
+
+        String userEmail,
+
+        String password
+
 ) {}

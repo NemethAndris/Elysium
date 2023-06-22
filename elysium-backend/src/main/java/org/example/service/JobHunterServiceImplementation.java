@@ -1,6 +1,5 @@
 package org.example.service;
 
-import lombok.AllArgsConstructor;
 import org.example.controller.dto.UserRegistrationDTO;
 import org.example.model.users.JobHunter;
 import org.example.repository.JobHunterRepository;
@@ -19,9 +18,10 @@ public class JobHunterServiceImplementation implements JobHunterService {
     @Override
     public boolean exists(UserRegistrationDTO userRegistrationDTO) {
         return jobHunterRepository.existsJobHunterByUserNameAndPasswordAndUserEmail(
-                userRegistrationDTO.username(),
-                userRegistrationDTO.password(),
-                userRegistrationDTO.userEmail()
+                userRegistrationDTO.userName(),
+                userRegistrationDTO.userEmail(),
+                userRegistrationDTO.password()
+
         );
     }
 

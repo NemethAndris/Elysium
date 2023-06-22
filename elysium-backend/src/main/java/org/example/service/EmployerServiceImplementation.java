@@ -20,9 +20,10 @@ public class EmployerServiceImplementation implements EmployerService {
     @Override
     public boolean exists(UserRegistrationDTO userRegistrationDTO) {
         return employerRepository.existsEmployerByUserNameAndPasswordAndUserEmail(
-                userRegistrationDTO.username(),
-                userRegistrationDTO.password(),
-                userRegistrationDTO.userEmail()
+                userRegistrationDTO.userName(),
+                userRegistrationDTO.userEmail(),
+                userRegistrationDTO.password()
+
         );
     }
 

@@ -33,9 +33,9 @@ public class JobHunterController {
 
             JobHunter employerToAdd = JobHunter
                     .builder()
-                    .userName(userRegistrationDTO.username())
-                    .password(userRegistrationDTO.password())
+                    .userName(userRegistrationDTO.userName())
                     .userEmail(userRegistrationDTO.userEmail())
+                    .password(userRegistrationDTO.password())
                     .build();
 
             jobHunterService.saveJobHunter(employerToAdd);

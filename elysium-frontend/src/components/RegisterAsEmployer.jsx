@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const RegisterAsEmployer = () => {
-    const [username, setUsername] = useState('');
-    const [email, setEmail] = useState('');
+    const [userName, setUserName] = useState('');
+    const [userEmail, setUserEmail] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
 
@@ -16,9 +16,9 @@ const RegisterAsEmployer = () => {
         }
 
         try {
-            const response = await axios.post('employer/registration', {
-                username,
-                email,
+            const response = await axios.post('http://localhost:8080/employer/registration', {
+                userName,
+                userEmail,
                 password,
             });
 
@@ -42,8 +42,8 @@ const RegisterAsEmployer = () => {
                         id="username"
                         className="w-full px-4 py-2 border rounded"
                         placeholder="Enter your username"
-                        value={username}
-                        onChange={(e) => setUsername(e.target.value)}
+                        value={userName}
+                        onChange={(e) => setUserName(e.target.value)}
                         required
                     />
                 </div>
@@ -56,8 +56,8 @@ const RegisterAsEmployer = () => {
                         id="email"
                         className="w-full px-4 py-2 border rounded"
                         placeholder="Enter your email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
+                        value={userEmail}
+                        onChange={(e) => setUserEmail(e.target.value)}
                         required
                     />
                 </div>

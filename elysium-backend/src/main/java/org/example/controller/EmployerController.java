@@ -6,12 +6,10 @@ import org.example.service.EmployerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/employer")
 public class EmployerController {
 
@@ -34,9 +32,9 @@ public class EmployerController {
 
             Employer employerToAdd = Employer
                     .builder()
-                    .userName(userRegistrationDTO.username())
-                    .password(userRegistrationDTO.password())
+                    .userName(userRegistrationDTO.userName())
                     .userEmail(userRegistrationDTO.userEmail())
+                    .password(userRegistrationDTO.password())
                     .build();
 
             employerService.saveEmployer(employerToAdd);
