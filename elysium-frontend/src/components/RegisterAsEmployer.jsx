@@ -16,7 +16,7 @@ const RegisterAsEmployer = () => {
         }
 
         try {
-            const response = await axios.post('/api/register', {
+            const response = await axios.post('employer/registration', {
                 username,
                 email,
                 password,

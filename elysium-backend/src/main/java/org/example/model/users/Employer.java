@@ -2,6 +2,7 @@ package org.example.model.users;
 
 import jakarta.persistence.*;
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 import org.example.model.job.Job;
 
 
@@ -11,7 +12,7 @@ import java.util.Collection;
 
 @Data
 @Entity
-@Builder
+@SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(callSuper = true)

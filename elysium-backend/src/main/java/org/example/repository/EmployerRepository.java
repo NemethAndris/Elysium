@@ -6,5 +6,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.UUID;
 @Repository
-public interface EmployerRepository extends JpaRepository<UUID, Employer> {
+public interface EmployerRepository extends JpaRepository<Employer, UUID> {
+    boolean existsEmployerByUserNameAndPasswordAndUserEmail(String username, String password, String userEmail);
 }
