@@ -11,8 +11,11 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="space-x-4">
-                    <Link to="/register" className="text-white hover:text-gray-300">
-                        Register
+                    <Link to="/register-jobSeeker" className="text-white hover:text-gray-300">
+                        Register as jobhunter
+                    </Link>
+                    <Link to="/register-employer" className="text-white hover:text-gray-300">
+                        Register as employer
                     </Link>
                     <Link to="/login" className="text-white hover:text-gray-300">
                         Login

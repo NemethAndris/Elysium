@@ -1,11 +1,12 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Landing from './Landing';
-import Register from './Register';
 import Login from './Login';
 import UserProfile from './UserProfile';
 import ErrorPage from './ErrorPage';
 import Navbar from './Navbar';
+import RegisterAsJobSeeker from "./RegisterAsJobSeeker";
+import RegisterAsEmployer from "./RegisterAsEmployer";
 
 const Layout = () => {
     return (
@@ -14,7 +15,8 @@ const Layout = () => {
             <div className="container mx-auto">
                 <Routes>
                     <Route path="/" element={<Landing />} />
-                    <Route path="/register" element={<Register />} />
+                    <Route path="/register-jobSeeker" element={<RegisterAsJobSeeker />} />
+                    <Route path="/register-employer" element={<RegisterAsEmployer />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/profile" element={<UserProfile />} />
                     <Route element={<ErrorPage />} />
