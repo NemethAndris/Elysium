@@ -2,7 +2,7 @@
 
 # Elysium
 
-This project is a tool for people to find a job easier. 
+Introducing Elysium, a job search tool built to assist individuals in finding their ideal career path. My aim is twofold: to offer a fresh approach to job hunting and to provide a platform for learning new technologies along the way. Join me as I simplify the job search process and embark on a journey of discovery and professional growth.
 
 ## Table of Contents
 
@@ -15,11 +15,17 @@ This project is a tool for people to find a job easier.
 
 ## Introduction
 
-Provide a brief introduction to your project, explaining its purpose and any relevant background information. Mention what problem it solves or what value it adds.
+ While I have been actively searching for a developer job recently, an idea struck me to create an application that would not only simplify the process but also add a touch of entertainment. The concept revolves around a tool where individuals can swipe through job listings based on their descriptions. They would have the option to swipe right if the job interests them or left if it doesn't align with their preferences. By implementing this feature, the job search experience becomes more interactive and engaging.
+ 
+ On the other hand, HR consultants will have the ability to view the profiles of individuals who have applied for their positions and swipe back on candidates with whom they share a mutual interest or connection. This two-way swiping feature enables HR consultants to easily identify potential candidates who resonate with their company's values and culture, fostering a more efficient and effective hiring process.
+ 
+ By enabling users to apply for jobs seamlessly within the application and automatically upload their CVs upon registration, the process becomes incredibly efficient, eliminating the need to individually send applications to each employer. Additionally, the instant feedback received from HR consultants through mutual swiping creates a sense of connection and provides valuable insight into the candidate's compatibility with the company. This not only simplifies the job search journey but also fosters quicker and more meaningful interactions between job seekers and potential employers.
 
 ## Features
 
-List and describe the key features of your project. This section should provide a high-level overview of the functionalities and capabilities your project offers.
+This project is currently in active development, with new features being added on a weekly basis. The project is designed to follow a layered architecture, including distinct components such as models, services, controllers, and views. Several foundational elements have already been implemented, including the database connection, entity classes, a basic frontend page, and a registration feature.
+
+The ongoing focus is on developing the login and authentication functionality, but there is a comprehensive roadmap of exciting features outlined in the project description. The aim is to continually enhance the application by incorporating these planned features.
 
 ## Getting Started
 
