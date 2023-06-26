@@ -1,3 +1,5 @@
+![Project Logo](https://github.com/NemethAndris/Elysium/blob/bd944be394a9bd26aac2ed19fe06e33b8f1842a3/elysium-logo.png)
+
 # Elysium
 
 This project is a tool for people to find a job easier. 
