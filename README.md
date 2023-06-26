@@ -25,17 +25,19 @@ Introducing Elysium, a job search tool built to assist individuals in finding th
 
 This project is currently in active development, with new features being added on a weekly basis. The project is designed to follow a layered architecture, including distinct components such as models, services, controllers, and views. Several foundational elements have already been implemented, including the database connection, entity classes, a basic frontend page, and a registration feature.
 
-Codesnippet about registration feature on the frontend side:
+Codesnippet about registration feature on the frontend side  (not the final! under development):
 
 ![Screenshot](https://github.com/NemethAndris/Elysium/blob/941380063f3e50d97741fddb676c57fbb76f52e2/elysium-pictures/K%C3%A9perny%C5%91felv%C3%A9tel%20(10).png)
 
-Codesnippet about the backend UserController:
+Codesnippet about the backend UserController  (not the final! under development):
 
 ![Screenshot](https://github.com/NemethAndris/Elysium/blob/f6e9d305705910e6eecd5b4153c1349b35823c3c/elysium-pictures/K%C3%A9perny%C5%91felv%C3%A9tel%20(6).png)
 
-Codesnippet about the basic landing page in the browser:
+Codesnippet about the basic landing page in the browser  (not the final! under development):
 
 ![Screenshot](https://github.com/NemethAndris/Elysium/blob/2546f523b2d5575d51f72571a77530faaf86d8e4/elysium-pictures/K%C3%A9perny%C5%91felv%C3%A9tel%20(8).png)
+
+Codesnippet about the registration page in the browser (not the final! under development):
 
 The ongoing focus is on developing the login and authentication functionality, but there is a comprehensive roadmap of exciting features outlined in the project description. The aim is to continually enhance the application by incorporating these planned features.
 
