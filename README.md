@@ -7,6 +7,7 @@ Introducing Elysium, a job search tool built to assist individuals in finding th
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Technologies](#technologies)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
@@ -18,6 +19,9 @@ Introducing Elysium, a job search tool built to assist individuals in finding th
  On the other hand, HR consultants will have the ability to view the profiles of individuals who have applied for their positions and swipe back on candidates with whom they share a mutual interest or connection. This two-way swiping feature enables HR consultants to easily identify potential candidates who resonate with their company's values and culture, fostering a more efficient and effective hiring process.
  
  By enabling users to apply for jobs seamlessly within the application and automatically upload their CVs upon registration, the process becomes incredibly efficient, eliminating the need to individually send applications to each employer. Additionally, the instant feedback received from HR consultants through mutual swiping creates a sense of connection and provides valuable insight into the candidate's compatibility with the company. This not only simplifies the job search journey but also fosters quicker and more meaningful interactions between job seekers and potential employers.
+
+
+## Technologies
 
 ## Features
 
