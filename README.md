@@ -10,8 +10,6 @@ Introducing Elysium, a job search tool built to assist individuals in finding th
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -96,17 +94,11 @@ The frontend development server will start running on http://localhost:3000.
 
 Coming soon! 
 
-## Contributing
+## Acknowledgments 
 
-If you are open to contributions from the community, explain how others can contribute to your project. You can mention guidelines for submitting bug reports, feature requests, or pull requests. Include information on how to set up a development environment if applicable.
+I would like to express my gratitude to the following individuals and projects that have inspired or provided valuable resources for the development of this project:
 
-## License
-
-Specify the license under which your project is released. If you're unsure about the license, you can visit [choosealicense.com](https://choosealicense.com/) to help you choose an appropriate license.
-
-## Acknowledgments (Optional)
-
-If you would like to acknowledge any individuals, projects, or resources that have inspired or assisted you in developing your project, you can include them in this section.
+- Coming Soon!
 
 ## Contact Information
 If you find this project interesting or would like to collaborate, feel free to reach out to me. I am open to collaboration opportunities and welcome your involvement. Please don't hesitate to contact me via the following methods:
