@@ -39,6 +39,8 @@ Codesnippet about the basic landing page in the browser  (not the final! under d
 
 Codesnippet about the registration page in the browser (not the final! under development):
 
+![Screenshot](https://github.com/NemethAndris/Elysium/blob/63c1699665e49e1aad910fb827af93bb3b24c4e7/elysium-pictures/K%C3%A9perny%C5%91felv%C3%A9tel%20(9).png)
+
 The ongoing focus is on developing the login and authentication functionality, but there is a comprehensive roadmap of exciting features outlined in the project description. The aim is to continually enhance the application by incorporating these planned features.
 
 ## Getting Started
