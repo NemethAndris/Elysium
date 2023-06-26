@@ -58,48 +58,43 @@ The ongoing focus is on developing the login and authentication functionality, b
    ```bash
    $ git clone https://github.com/NemethAndris/Elysium.git
    $ cd Elysium
+   ```
 
  2. Navigate to the backend directory:
-  ```bash
- $ cd backend
+ 
+    ```bash
+    $ cd elysium-backend
+    ```
 
+3. Open the application.properties file in the src/main/resources directory.
+4. Configure the PostgreSQL database connection properties, including the database URL, username, and password.
+5. Build and run the Spring Boot backend:
+   ```bash
+   $ ./mvnw spring-boot:run
+   ```
+   The backend server will start running on http://localhost:8080.
 
- 3. Open the application.properties file in the src/main/resources directory.
+### Frontend Setup
+1. Open a new terminal and navigate to the frontend directory:
+    ```bash
+    $ cd elysium-frontend
+    ```
+
+2. Install the required dependencies:
   
-
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+    ```bash
+    $ npm install
+    ```
+3.Start the React development server:
+   ```bash
+      $ npm start
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+The frontend development server will start running on http://localhost:3000.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-
-
-Explain how to set up and run your project. Include any prerequisites, installation instructions, or dependencies required. You can also provide code examples to help users get started quickly.
 
 ## Usage
 
-Provide detailed instructions on how to use your project. Include examples, code snippets, or screenshots if necessary. Explain the different options or parameters available and how they can be used.
+Coming soon! 
 
 ## Contributing
 
@@ -114,5 +109,10 @@ Specify the license under which your project is released. If you're unsure about
 If you would like to acknowledge any individuals, projects, or resources that have inspired or assisted you in developing your project, you can include them in this section.
 
 ## Contact Information
+If you find this project interesting or would like to collaborate, feel free to reach out to me. I am open to collaboration opportunities and welcome your involvement. Please don't hesitate to contact me via the following methods:
 
-Provide your contact information, such as your email or any other preferred method for users or contributors to reach out to you with questions or feedback.
+Email: nthas13@gmail.com
+
+GitHub: NemethAndris
+
+I am excited about this project and look forward to hearing from you. Let's work together and make it even better!
