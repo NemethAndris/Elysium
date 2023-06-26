@@ -45,6 +45,48 @@ The ongoing focus is on developing the login and authentication functionality, b
 
 ## Getting Started
 
+### Prerequisites
+
+- [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) installed
+- [Node.js](https://nodejs.org/) installed
+- [PostgreSQL](https://www.postgresql.org/) installed and running
+
+- ### Backend Setup
+
+1. Clone the repository:
+
+   ```bash
+   $ git clone https://github.com/your-username/your-repository.git
+   $ cd your-repository
+
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Get a free API Key at [https://example.com](https://example.com)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Enter your API in `config.js`
+   ```js
+   const API_KEY = 'ENTER YOUR API';
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+
+
 Explain how to set up and run your project. Include any prerequisites, installation instructions, or dependencies required. You can also provide code examples to help users get started quickly.
 
 ## Usage
