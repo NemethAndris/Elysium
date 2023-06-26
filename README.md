@@ -1,6 +1,6 @@
-# Project Name
+# Elysium
 
-Briefly describe your project in a few sentences or a paragraph.
+This project is a tool for people to find a job easier. 
 
 ## Table of Contents
 
