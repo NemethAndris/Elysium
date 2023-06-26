@@ -56,8 +56,16 @@ The ongoing focus is on developing the login and authentication functionality, b
 1. Clone the repository:
 
    ```bash
-   $ git clone https://github.com/your-username/your-repository.git
-   $ cd your-repository
+   $ git clone https://github.com/NemethAndris/Elysium.git
+   $ cd Elysium
+
+ 2. Navigate to the backend directory:
+  ```bash
+ $ cd backend
+
+
+ 3. Open the application.properties file in the src/main/resources directory.
+  
 
 
 ### Installation
