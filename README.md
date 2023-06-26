@@ -83,10 +83,12 @@ The ongoing focus is on developing the login and authentication functionality, b
     ```bash
     $ npm install
     ```
-3.Start the React development server:
+ 3.Start the React development server:
+   
    ```bash
       $ npm start
    ```
+
 The frontend development server will start running on http://localhost:3000.
 
 
