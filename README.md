@@ -33,6 +33,10 @@ Codesnippet about the backend UserController:
 
 ![Screenshot](https://github.com/NemethAndris/Elysium/blob/f6e9d305705910e6eecd5b4153c1349b35823c3c/elysium-pictures/K%C3%A9perny%C5%91felv%C3%A9tel%20(6).png)
 
+Codesnippet about the basic landing page in the browser:
+
+![Screenshot](https://github.com/NemethAndris/Elysium/blob/2546f523b2d5575d51f72571a77530faaf86d8e4/elysium-pictures/K%C3%A9perny%C5%91felv%C3%A9tel%20(8).png)
+
 The ongoing focus is on developing the login and authentication functionality, but there is a comprehensive roadmap of exciting features outlined in the project description. The aim is to continually enhance the application by incorporating these planned features.
 
 ## Getting Started
