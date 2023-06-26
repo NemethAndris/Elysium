@@ -23,6 +23,14 @@ Introducing Elysium, a job search tool built to assist individuals in finding th
 
 ## Technologies
 
+ ![Spring]
+ 
+ ![React]
+ 
+ ![Postgre]
+ 
+ ![Tailwind]
+
 ## Features
 
 This project is currently in active development, with new features being added on a weekly basis. The project is designed to follow a layered architecture, including distinct components such as models, services, controllers, and views. Several foundational elements have already been implemented, including the database connection, entity classes, a basic frontend page, and a registration feature.
@@ -114,3 +122,9 @@ Email: nthas13@gmail.com
 GitHub: NemethAndris
 
 I am excited about this project and look forward to hearing from you. Let's work together and make it even better!
+
+
+[Spring]:https://4.bp.blogspot.com/-ou-a_Aa1t7A/W6IhNc3Q0gI/AAAAAAAAD6Y/pwh44arKiuM_NBqB1H7Pz4-7QhUxAgZkACLcBGAs/s1600/spring-boot-logo.png
+[Tailwind]:https://avatars.githubusercontent.com/u/67109815?s=280&v=4
+[React]:https://miro.medium.com/v2/resize:fit:1200/0*p4OJ29rbtqDvpLU7.png
+[Postgre]:https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/postgres/logo.png
